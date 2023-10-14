@@ -32,7 +32,15 @@ const App = () => {
         <View style={styles.signin}>
           <Text style={styles.signinHeader}><Link href="./masterPage">go to master page</Link></Text>
         </View>
-        
+        <View style={styles.signin}>
+          <Text style={styles.signinHeader}><Link href="./notifications">go to notifications page</Link></Text>
+        </View>
+        <View style={styles.signin}>
+          <Text style={styles.signinHeader}><Link href="./jobPage">go to jobPage page</Link></Text>
+        </View>
+        <View style={styles.signin}>
+          <Text style={styles.signinHeader}><Link href="./settings">go to settings page</Link></Text>
+        </View>
       </View>
     </View>
   );
